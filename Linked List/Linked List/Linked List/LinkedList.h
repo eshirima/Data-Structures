@@ -11,4 +11,36 @@
 
 #include <stdio.h>
 
+class Node
+{
+public:
+    
+    Node();
+    Node(int);
+    
+    int data;
+    Node * next;
+};
+
+class LinkedList
+{
+public:
+    
+    LinkedList();
+    LinkedList(const LinkedList&);
+    ~LinkedList();
+    LinkedList& operator=(LinkedList);
+    
+    int length(LinkedList);
+    void swap(LinkedList&);
+    void insertInfront(int);
+    void insertBack(int);
+    void deleteFromFront();
+    void deleteFromBack();
+    bool isEmpty();
+    
+private:
+    Node * head;
+};
+
 #endif /* defined(__Linked_List__LinkedList__) */
