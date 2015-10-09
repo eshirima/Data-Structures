@@ -116,7 +116,7 @@ void LinkedList::deleteFromFront()
     }
     else
     {
-        std::cout << "The List is empty :(" << "\n";
+        std::cout << "It's the 21st century and we still cannot delete an empty list :(" << "\n";
     }
 }
 
@@ -148,7 +148,7 @@ void LinkedList::deleteFromBack()
     }
     else
     {
-        std::cout << "The List is empty :(";
+        std::cout << "Inspite of all the technology, we still cannot delete from an empty list :(";
     }
 }
 
@@ -178,6 +178,6 @@ void LinkedList::printContents()
     }
     else
     {
-        std::cout << "Cannot print out an empty list :(";
+        std::cout << "Our current technology does not support printing an empty list :(";
     }
 }
