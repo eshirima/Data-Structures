@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>21367833-2E44-43F1-8589-CF2930E32EB1</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>Linked List</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>2AAA77C714A38DF75D9EDA5EE6D3DC291030C0DC</key>
 		<string>https://github.com/eshirima/Data-Structures.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Linked List/Linked List/Linked List.xcodeproj/project.xcworkspace</string>
+	<string>Linked List/Linked List/Linked List.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>2AAA77C714A38DF75D9EDA5EE6D3DC291030C0DC</key>

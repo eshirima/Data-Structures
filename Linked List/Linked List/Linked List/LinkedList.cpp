@@ -114,17 +114,42 @@ void LinkedList::deleteFromFront()
         head = head->next;
         delete temp;
     }
+    else
+    {
+        std::cout << "The List is empty :(" << "\n";
+    }
 }
 
 void LinkedList::deleteFromBack()
 {
-    Node * temp = head;
-    
-    while (temp->next != nullptr)
+    if (!isEmpty())
     {
-        temp = temp->next;
+        // a single element in the Linked List
+        if (head ->next == nullptr)
+        {
+            delete head;
+            head = nullptr;
+        }
+        else
+        {
+            Node * temp = head->next;
+            Node * previous = head;
+            
+            while (temp->next != nullptr)
+            {
+                previous = temp;
+                temp = temp->next;
+            }
+            
+            delete temp;
+            previous->next = nullptr;
+            
+        }
     }
-    
+    else
+    {
+        std::cout << "The List is empty :(";
+    }
 }
 
 bool LinkedList::isEmpty()
@@ -135,4 +160,24 @@ bool LinkedList::isEmpty()
     }
     
     return false;
+}
+
+void LinkedList::printContents()
+{
+    if(!isEmpty())
+    {
+        Node * temp = this->head;
+        
+        while (temp)
+        {
+            std::cout << temp->data << "\n";
+            temp = temp->next;
+        }
+        
+        std::cout << "\n";
+    }
+    else
+    {
+        std::cout << "Cannot print out an empty list :(";
+    }
 }

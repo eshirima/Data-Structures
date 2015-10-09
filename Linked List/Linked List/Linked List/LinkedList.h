@@ -10,6 +10,7 @@
 #define __Linked_List__LinkedList__
 
 #include <stdio.h>
+#include <iostream>
 
 class Node
 {
@@ -38,6 +39,7 @@ public:
     void deleteFromFront();
     void deleteFromBack();
     bool isEmpty();
+    void printContents();
     
 private:
     Node * head;
