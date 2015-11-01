@@ -9,7 +9,6 @@
 #ifndef HashMap_hpp
 #define HashMap_hpp
 
-#include <stdio.h>
 #include <iostream>
 
 class Item
