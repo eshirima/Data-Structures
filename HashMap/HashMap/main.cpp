@@ -6,7 +6,6 @@
 //  Copyright © 2015 Emil Shirima. All rights reserved.
 //
 
-#include <iostream>
 #include "HashMap.hpp"
 
 int main(int argc, const char * argv[]) {
